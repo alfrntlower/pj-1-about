@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-        crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href=" " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">    
+
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    
 </head>
-
 <body>
-    <!-- добавляются фрагменты в главные HTML-файлы страниц. -->
-
     <section id="about" class="about-section container-a container">
-
+    
         <h2 class="about-section__label">tradition and love</h2>
         <h1 class="about-section__title">how it’s made?</h1>
-
-        <p class="about-section__first-description">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
-            justo
+    
+        <p class="about-section__first-description">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
             cursus, faucibus lorem eget, egestas eros.
             Maecenas eleifend erat at justo fringilla.</p>
-
-        <p class="about-section__second-description">Curabitur lacinia enim at ex blandit, vel pellentesque odio
-            elementum.
+    
+        <p class="about-section__second-description">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
             Mauris rhoncus orci in imperdiet placerat.
             Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-
-
+    
+    
             Aliquam erat volutpat. Aenean accumsan.</p>
-
-
+    
+    
         <button type="button" class="about__button" data-modal-open>Read more</button>
-
+    
         <ul class="about-section__list">
             <li class="about-section__item">
                 <h2 class="about-section__number">721</h2>
-                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
+                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="about-section__item">
                 <h2 class="about-section__number">16kg</h2>
-                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
+                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="about-section__item">
                 <h2 class="about-section__number">84</h2>
-                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
+                <p class="about-section__third-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
         </ul>
-
-
+    
+    
     </section>
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js"></script>
-</body>
 
+
+
+
+
+
+
+    <!-- Script Open / Close Mobile Burger-->
+    <script src="./js/menu.js"></script>
+
+    <!-- Script Open / Close Modal-->
+    <script src="./js/modal.js"></script>
+
+</body>
 </html>

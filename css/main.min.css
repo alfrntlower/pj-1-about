@@ -1,0 +1,2 @@
+.container-a{outline:1px solid green}.about-section{outline:1px solid red;background-color:red;color:red}@media screen and (min-width: 480px) and (max-width: 767px){.about-section{padding-top:125px}}@media screen and (min-width: 768px) and (max-width: 1200px){.about-section{padding-top:130px}}@media screen and (min-width: 1201px){.about-section{padding-top:125px}}
+/*# sourceMappingURL=main.min.css.map */
