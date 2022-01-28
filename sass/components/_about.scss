@@ -1,0 +1,29 @@
+// $main-color__bright-pink: #d41443;
+// $main-color__pale-pink: #ffa5ba;
+// $main-color__white: #fff;
+// $main-color__grey: #907e82;
+// $main-color__black: #000;
+// $main-color__peach: #ffb8ca;
+// $main-color__green: #c2e297;
+// $background-color__pink: #ffb8ca;
+// $background-color__white: #e5e5e5;
+// $background-color__ivory: #fff5f6;
+
+.container-a {
+  outline: 1px solid green;
+}
+
+.about-section {
+  outline: 1px solid red;
+  background-color: red;
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    padding-top: 125px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    padding-top: 130px;
+  }
+  @media screen and (min-width: 1201px) {
+    padding-top: 125px;
+  }
+}
